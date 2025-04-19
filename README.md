@@ -1,1 +1,324 @@
 # Lecture-Notes
+
+## Options
+
+- Basics of Options
+    - Call and Put Options
+    - Strike Price, Expiration Date, and Premium
+    - Long vs. Short Positions
+    - In-the-money, At-the-money, and Out-of-the-money
+    - American vs. European Options
+- Pricing Models
+    - Black-Scholes Model
+    - Binomial Model
+    - Monte Carlo Simulation
+    - Implied Volatility
+    - Historical vs. Implied Volatility
+- Greeks
+    - Delta
+    - Gamma
+    - Theta
+    - Vega
+    - Rho
+- Term Structure, Skew, Smile
+    - Volatility Term Structure
+    - Volatility Smile
+    - Volatility Skew
+    - Time decay and term structure
+    - Risk-neutral probability distribution
+- Exotic Options
+    - Barrier Options
+    - Asian Options
+    - Lookback Options
+    - Compound Options
+    - Digital (Binary) Options
+- Hedging
+    - Delta Hedging
+    - Gamma Hedging
+    - Portfolio Hedging
+    - Dynamic Hedging
+    - Hedging with Futures vs. Options
+- Relative Value
+    - Pairs Trading
+    - Spread Strategies
+    - Arbitrage in Options
+    - Volatility Arbitrage
+    - Statistical Arbitrage
+- Volatility Models
+    - Historical Volatility
+    - Implied Volatility
+    - GARCH Models
+    - Stochastic Volatility Models
+    - Volatility Clustering
+- Strategies
+    - Covered Calls
+    - Straddle and Strangle
+    - Iron Condor
+    - Butterfly Spread
+    - Long and Short Straddles
+
+## Statistics
+
+- Calculus and Linear Algebra
+    - Derivatives and Integrals
+    - Matrix Operations
+    - Eigenvalues and Eigenvectors
+    - Jacobian and Hessian Matrices
+    - Multivariable Calculus
+- Probability
+    - Probability Distributions (Normal, Exponential, etc.)
+    - Bayes' Theorem
+    - Conditional Probability
+    - Law of Large Numbers
+    - Central Limit Theorem
+- Inference
+    - Confidence Intervals
+    - Hypothesis Testing
+    - p-values and Significance Levels
+    - Maximum Likelihood Estimation (MLE)
+    - Bayesian Inference
+- Linear Models
+    - Linear Regression
+    - Multiple Linear Regression
+    - Ridge and Lasso Regression
+    - OLS (Ordinary Least Squares)
+    - Assumptions of Linear Regression
+- Tree Models
+    - Decision Trees
+    - Random Forests
+    - Gradient Boosting Machines (GBM)
+    - XGBoost
+    - Overfitting and Pruning
+- Classification
+    - Logistic Regression
+    - Support Vector Machines (SVM)
+    - k-Nearest Neighbors (k-NN)
+    - Naive Bayes Classifier
+    - ROC Curve and AUC
+- Deep Learning
+    - Neural Networks
+    - Convolutional Neural Networks (CNN)
+    - Recurrent Neural Networks (RNN)
+    - Backpropagation
+    - TensorFlow and PyTorch
+- Convex Optimization
+    - Convex Functions
+    - Gradient Descent
+    - Lagrangian Multipliers
+    - Constrained Optimization
+    - Duality Theory
+- Time Series (GARCH, Cointegration)
+    - Autoregressive Models (AR)
+    - Moving Average Models (MA)
+    - ARIMA and SARIMA
+    - GARCH Models
+    - Cointegration and Causality
+- Correlation
+    - Pearson Correlation
+    - Spearman Rank Correlation
+    - Cross-Correlation
+    - Covariance vs. Correlation
+    - Partial Correlation
+- Computational Statistics
+    - Monte Carlo Simulations
+    - Bootstrapping
+    - Markov Chain Monte Carlo (MCMC)
+    - Importance Sampling
+    - Random Processes
+- Stochastic Calculus
+    - Brownian Motion
+    - Stochastic Differential Equations (SDEs)
+    - Ito's Lemma
+    - Martingales
+    - Stochastic Integrals
+- Numerical Methods
+    - Numerical Integration
+    - Root-Finding Algorithms
+    - Monte Carlo Methods
+    - Finite Difference Methods
+    - Numerical Linear Algebra
+- Multivariate Statistics
+    - Principal Component Analysis (PCA)
+    - Factor Analysis
+    - Multivariate Normal Distribution
+    - Canonical Correlation Analysis
+    - Multivariate Regression
+- Bootstrapping and Resampling
+    - Basic Bootstrapping
+    - Bias-Corrected Confidence Intervals
+    - Cross-Validation
+    - K-fold Cross-Validation
+    - Jackknife Resampling
+- Extreme Value Theory
+    - Value-at-Risk (VaR)
+    - Gumbel Distribution
+    - Peaks Over Threshold (POT)
+    - Generalized Extreme Value (GEV) Distribution
+    - Tail Risk Models
+- Measure Theory
+    - σ-Algebras
+    - Lebesgue Integration
+    - Probability Measures
+    - Stochastic Processes
+    - Radon-Nikodym Derivative
+- Financial Mathematics
+    - Present Value and Discounting
+    - Net Present Value (NPV)
+    - Compound Interest
+    - Portfolio Optimization
+    - Stochastic Models for Pricing
+- Signal Processing
+    - Fourier Transform
+    - Time-Frequency Analysis
+    - Filtering
+    - Digital Signal Processing (DSP)
+    - Wavelet Transforms
+- Causal Inference
+    - Counterfactual Framework
+    - Instrumental Variables
+    - Propensity Score Matching
+    - Directed Acyclic Graphs (DAGs)
+    - Difference-in-Differences
+
+## Finance
+
+- Rates
+    - Bonds
+    - Swaps
+    - Interest Rates and Yield Curves
+    - Discount Factors
+    - Term Structure of Interest Rates
+    - Forward Rates
+    - LIBOR and SOFR
+- Equities
+    - Stock Valuation Methods
+    - Dividend Discount Model (DDM)
+    - Price-to-Earnings (P/E) Ratio
+    - Earnings Per Share (EPS)
+    - Capital Asset Pricing Model (CAPM)
+- Foreign Exchange
+    - Currency Pairs
+    - FX Spot and Forward Rates
+    - Interest Rate Parity
+    - Currency Hedging
+    - FX Swaps and Options
+- Commodities
+    - Commodity Futures
+    - Backwardation and Contango
+    - Hedging Commodities
+    - Commodity ETFs
+    - Commodity Trading Strategies
+- Credit
+    - Credit Risk
+    - Credit Default Swaps (CDS)
+    - Rating Agencies and Credit Scores
+    - Corporate Bonds
+    - Default Probability Models
+- Portfolio Optimization
+    - Mean-Variance Optimization
+    - Efficient Frontier
+    - Capital Market Line (CML)
+    - Risk-Adjusted Returns (Sharpe Ratio)
+    - Black-Litterman Model
+- Market Microstructure
+    - Order Types (Limit, Market, Stop-Loss)
+    - Bid-Ask Spread
+    - Liquidity and Slippage
+    - High-Frequency Trading (HFT)
+    - Market Depth and Order Book
+- Model Calibration
+    - Calibration of Option Pricing Models
+    - Fitting Historical Data to Models
+    - Parameter Estimation
+    - Maximum Likelihood vs. Least Squares
+    - Sensitivity Analysis
+- Risk Management (VaR, Stress Testing)
+    - Value-at-Risk (VaR) Calculation
+    - Stress Testing and Scenario Analysis
+    - Risk Aggregation
+    - Tail Risk
+    - Credit VaR
+
+## Economics
+
+- Macroeconomic Indicators
+    - GDP Growth Rate
+    - Inflation Rate
+    - Unemployment Rate
+    - Consumer Price Index (CPI)
+    - Interest Rates and Central Bank Policies
+- Central Banks
+    - Federal Reserve (Fed) and Monetary Policy
+    - Interest Rate Decisions
+    - Quantitative Easing (QE)
+    - Open Market Operations
+    - Discount Window
+- Behavioural Economics
+    - Prospect Theory
+    - Anchoring Bias
+    - Overconfidence Bias
+    - Loss Aversion
+    - Mental Accounting
+- Monetary and Fiscal Policy
+    - Monetary Policy Tools (Interest Rates, QE)
+    - Fiscal Stimulus
+    - Budget Deficits and Surpluses
+    - Government Debt
+    - Keynesian vs. Classical Economics
+
+## Programming
+
+- Object-Oriented Programming
+    - Classes and Objects
+    - Inheritance and Polymorphism
+    - Encapsulation and Abstraction
+    - Interfaces and Abstract Classes
+    - Design Patterns (Singleton, Factory, etc.)
+- Basic Packages (Numpy, Pandas)
+    - Numpy Arrays and Operations
+    - Pandas DataFrames and Series
+    - Data Cleaning and Preprocessing
+    - Aggregation and Grouping
+    - Time Series Manipulation with Pandas
+- Advanced Packages (StatsModels, PyTorch)
+    - StatsModels for Statistical Modeling
+    - PyTorch for Deep Learning
+    - Time Series Modeling with StatsModels
+    - Neural Networks and Optimization in PyTorch
+    - Bayesian Inference with PyMC3
+- Backtesting
+    - Backtesting Frameworks
+    - Simulating Trades and Portfolio Returns
+    - Risk-Adjusted Performance Measures
+    - Walk-Forward Optimization
+    - Overfitting and Data Snooping
+- Distributed Systems and HPC
+    - Parallel Processing with Python (Multiprocessing, Dask)
+    - Distributed Data Frameworks (Apache Spark)
+    - Cloud Computing (AWS, GCP, Azure)
+    - High-Performance Computing (HPC) Resources
+    - Load Balancing and Fault Tolerance
+- Parallel Processing
+    - Threads vs Processes
+    - Task Parallelism
+    - MapReduce
+    - Parallelization with Numba, Dask
+    - GPGPU Programming with CUDA
+- Docker and Kubernetes
+    - Docker Containers for Isolation
+    - Kubernetes for Container Orchestration
+    - Deploying Applications with Docker
+    - Scaling Systems with Kubernetes
+    - Continuous Integration/Continuous Deployment (CI/CD)
+- Version Control
+    - Git Basics (Commits, Branches, Merging)
+    - GitHub/GitLab/Bitbucket for Collaboration
+    - Pull Requests and Code Reviews
+    - Version Control Best Practices
+    - Resolving Merge Conflicts
+- Databases (SQL, KDB)
+    - SQL Basics (SELECT, JOIN, GROUP BY)
+    - Indexing and Query Optimization
+    - KDB+/q for Time-Series Data
+    - Relational vs. NoSQL Databases
+    - Database Normalization and Transactions
